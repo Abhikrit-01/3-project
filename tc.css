@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body,html{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+#container{
+    height:70vh;
+    margin-top:30px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    width: 60vmin;
+    height:60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 18vmin;
+    height:18vmin;
+    margin:1vmin;
+    border:2px solid black;
+    border-radius: 1vmin;
+}
+#reset{
+    height:8vmin;
+    width:30vmin;
+    border: 2px;
+    border-radius: 7px;
+    border:solid azure;
+    color: azure;
+    background-color: black;
+}
+.hide{
+    display: none;
+}
