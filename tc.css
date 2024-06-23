@@ -48,7 +48,7 @@ body,html{
   
   text-align: center;
 }
-/* #nmsg{
+#nmsg{
     height: 60 vh;
     display: flex;
   text-align: center;
@@ -66,20 +66,6 @@ body,html{
 }
 h1{
     margin-top: 15px;
-} */
-.msg-container {
-    height: 30vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 1.5vmin;
-    color: broown;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   flex-wrap: wrap;
-  }
-  
-.msg-container {
-    display: none;
-  }
+}
+
 
