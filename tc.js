@@ -49,7 +49,7 @@ let resetgame =()=>{
   }
  
    let showwinner = (winner)=>{
-     btn2.innerHTML =` Congratulations, you are the Winner${winner}`
+     btn2.innerHTML =` Congratulations, ${winner} is the winner`
      btn3.classList.remove("hide");
      boxdisbl();
    }
