@@ -15,7 +15,12 @@ let arr = [  [0,1,2],
  ];  
 //  creation of the 2d array for storing the winning patterns .
  
+let resetgame =()=>{
+    o =true;
+    boxenbl();
+    btn3.classList.add("hide")
 
+ }
  b.forEach( function value(button){
     button.addEventListener("click",function val(){
         if(o){
@@ -36,7 +41,12 @@ let arr = [  [0,1,2],
     }
   }
  
-  
+    let boxenbl =()=>{
+     for(let m of b){
+        m.disabled=false;
+        m.innerHTML= " ";
+     }
+  }
  
    let showwinner = (winner)=>{
      btn2.innerHTML =` Congratulations, you are the Winner${winner}`
@@ -59,4 +69,6 @@ let arr = [  [0,1,2],
         }
     }
  }
+btn.addEventListener("click",resetgame)
+ res.addEventListener("click",resetgame)
  
